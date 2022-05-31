@@ -1,0 +1,46 @@
+  caesar() submission tests written by Thinkful
+    error handling
+      1) should return false if the shift amount is 0
+      2) should return false if the shift amount is above 25
+      3) should return false if the shift amount is less than -25
+    encoding a message
+      4) should encode a message by shifting the letters
+      5) should leaves spaces and other symbols as is
+      6) should ignore capital letters
+      7) should appropriately handle letters at the end of the alphabet
+      8) should allow for a negative shift that will shift to the left
+    decoding a message
+      9) should decode a message by shifting the letters in the opposite direction
+      10) should leaves spaces and other symbols as is
+      11) should ignore capital letters
+      12) should appropriately handle letters at the end of the alphabet
+      13) should allow for a negative shift that will shift to the left
+
+  polybius() submission tests written by Thinkful
+    encoding a message
+      14) should encode a message by translating each letter to number pairs
+      15) should translate both 'i' and 'j' to 42
+      16) should leave spaces as is
+    decoding a message
+      17) should decode a message by translating each pair of numbers into a letter
+      18) should translate 42 to both 'i' and 'j'
+      19) should leave spaces as is
+      20) should return false if the length of all numbers is odd
+
+  substitution() submission tests written by Thinkful
+    error handling
+      21) should return false if the substitution alphabet is missing
+      22) should return false if the substitution alphabet is not exactly 26 characters
+      23) should return false if the substitution alphabet does not contain unique characters
+    encoding a message
+      24) should encode a message by using the given substitution alphabet
+      25) should work with any kind of key with unique characters
+      26) should preserve spaces
+    decoding a message
+      27) should decode a message by using the given substitution alphabet
+      28) should work with any kind of key with unique characters
+      29) should preserve spaces
+
+
+  0 passing (33ms)
+  29 failing
